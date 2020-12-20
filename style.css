@@ -1,0 +1,85 @@
+/* The followings are the css styles used for html elements */
+
+.results {
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+    background: #c2f0f0;
+    color: green;
+}
+.float_right{
+    margin-top:10px;
+    float:right;
+    height: auto;
+    width: 50%;
+}
+.column {
+  float: left;
+  width: 33%;
+}
+
+
+.image_center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  height: auto;
+}
+.widget {
+    text-align: center;
+    margin: 0 auto;
+    width:400px;
+    height: 100px;
+    background:#c2f0f0;
+}
+/* Clear floats after the columns */
+.widget:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+a:hover {
+  background-color: #9fdfbf;
+}
+a:active {
+  color: #bfff00;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #E8F8F5;
+}
+.box {
+  width: 10cm;
+  border: 1px solid black;
+}
+
+.logo {
+  float: left;
+}
+
+
+form {
+	width: 100%;
+    margin: 0 auto;
+    text-align : center;
+}
+.ptag{
+	text-align : center;	
+}
+/* ~~ Top Navigation Bar ~~ */
+
+#navigation-container {
+  width: 1200px;
+  margin: 0 auto;
+  height: 70px;
+}
+
+
+footer   {
+  background: #66b3ff;
+  color: #222;
+  padding: 5px;
+  text-align: right;
+}
